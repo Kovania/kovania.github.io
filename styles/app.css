@@ -202,7 +202,9 @@ text-align: left;
   .kova-drawer .mdl-layout-title {
     position: relative;
     background-color: rgba(255, 255, 255, 0.1);
-    height: 160px;
+    background: url(https://avatars0.githubusercontent.com/u/18170201);
+    background-size: cover;
+    height: 240px;
   }
   
   .wrpages {
