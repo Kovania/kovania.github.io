@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr" style="min-height:100%;">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Accueil - KovaSK</title>
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=fr">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="styles/material.min.css">
+        <link rel="stylesheet" href="styles/app.css">
+        
+        <script src="js/jquery.min.js"></script>
+    </head>
+    
+  <body>
+  
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="kova-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="kova-title mdl-layout-title pointer" onclick="location.href='/#/accueil'">
+          	KovaSK
+          </span>
+          <div class="kova-header-spacer mdl-layout-spacer"></div>
+          
+          <div class="kova-navigation-container">
+            <nav class="kova-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase pointer" onclick="location.href='/#/accueil'">Accueil</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase">Contact</a>
+            </nav>
+          </div>
+          
+          <span class="kova-mobile-title mdl-layout-title">
+            KovaSK
+          </span>
+
+        </div>
+      </div>
+
+      <div class="kova-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          
+        </span>
+        <nav class="mdl-navigation">
+
+          <div class="kova-drawer-separator"></div>
+          
+          <a class="mdl-navigation__link" href=""></a>
+        </nav>
+      </div>
+      
+         <div class="kova-content mdl-layout__content">
+        
+        
+        
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header" style="display:none;">
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+          <a href="#overview" id="tab1" class="mdl-layout__tab"></a>
+          <a href="#ypg" id="tab-ypg" class="mdl-layout__tab"></a>
+          <a href="#taatu" id="tab-taatu" class="mdl-layout__tab"></a>
+          <a href="#wr" id="tab-wr" class="mdl-layout__tab"></a>
+        </div>
+      </header>
+     
+      
+
+      <main class="mdl-layout__content">
+      
+      <div id="kova-project" class="kova-more-section">
+        <div class="kova-card-container mdl-grid">
+
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp pointer" onclick="location.href='#/taatu';">
+              <div class="mdl-card__media">
+                <img src="images/taatu.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">TAATU Studio</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Une communauté virtuelle où les utilisateurs pouvaient créer leur avatar et évoluer dans un environnement 2.5D.</span>
+              </div>
+              </div>
+              
+              <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp pointer" onclick="location.href='#/ypg';">
+              <div class="mdl-card__media">
+                <img src="images/ypg.png">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">YouTube Player Games</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">Ce site avait pour objectif d'aider les Gameurs/euses de YouTube, en leurs proposent une alternative aux Chaînes Communautaires.</span>
+              </div>
+              </div>
+              
+        </div>      
+        </div>
+          	
+   
+        <div class="mdl-layout__tab-panel" id="overview" title="Accueil"></div>
+        
+        
+        <!-- YPGAMES -->
+        <div class="mdl-layout__tab-panel" id="ypg" data-include="ypg" titre="YPGames"></div>
+
+        <!-- TAATU -->
+         <div class="mdl-layout__tab-panel" id="taatu" data-include="taatu" titre="TAATU Studio"></div>
+
+      </main>
+    </div>
+    </div>
+    </div>
+    <script src="js/material.min.js"></script>
+	<script src="js/app.js"></script>
+     <script src="js/jquery.magnific-popup.min.js"></script>
+  </body>
+</html>
