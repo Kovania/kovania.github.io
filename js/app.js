@@ -3,11 +3,9 @@
     	data = window.location.hash.replace("#/","").replace(".html","");
     	
     	if(!data) location.href='#/accueil';
+    	if(!data) data = "accueil";
     	
     	if(data != "accueil") loadview(data);
-    	
-    	
-    	
     	
     	img = document.getElementsByTagName("img");
     	
@@ -15,7 +13,6 @@
     	{
     	    img[i].setAttribute("src", img[i].getAttribute("true-src"));
     	}	
-    	
 
     }; 
     
@@ -25,7 +22,7 @@
 
 		if(data != "accueil") loadview(data);
 		else showproject();
-		
+
     });
     
     function hideproject() {
@@ -44,7 +41,8 @@
     
     function loadview(data) {
     	
-        var include = $('#' + data);
+    
+    	var include = $('#' + data);
         
         if (include.html().length == 0) {
           var file = 'views/' + data + '.html';
