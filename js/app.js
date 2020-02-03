@@ -5,6 +5,17 @@
     	if(!data) location.href='#/accueil';
     	
     	if(data != "accueil") loadview(data);
+    	
+    	
+    	
+    	
+    	img = document.getElementsByTagName("img");
+    	
+    	for(i = 0;i < img.length; i++)
+    	{
+    	    img[i].setAttribute("src", img[i].getAttribute("true-src"));
+    	}	
+    	
 
     }; 
     
