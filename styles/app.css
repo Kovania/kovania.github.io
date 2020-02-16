@@ -365,9 +365,10 @@ text-align: left;
 
 .kova-wear-section {
   position: relative;
-  background: url('images/wear.png') center top no-repeat;
-  background-size: cover;
-  height: 800px;
+  background-size: cover!important;
+  height: 680px;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
 }
 
 .kova-wear-band {
