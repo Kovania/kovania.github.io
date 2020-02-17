@@ -2,6 +2,8 @@
 <html lang="fr" style="min-height: 100%;">
 <head>
 
+<!-- ADD FOR PROD : <base href="https://kovania.github.io/portfolio/"> -->
+
 <base href="https://kovania.github.io/portfolio/">
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -59,6 +61,7 @@
 						<a href="#taatu" id="tab-taatu" class="mdl-layout__tab"></a>
 						<a href="#wr" id="tab-wr" class="mdl-layout__tab"></a>
 						<a href="#imhd" id="tab-imhd" class="mdl-layout__tab"></a>
+						<a href="#skype" id="tab-skype" class="mdl-layout__tab"></a>
 					</div>
 				</header>
 
@@ -69,6 +72,22 @@
 					<div id="kova-project" class="kova-more-section">
 						<div class="kova-card-container mdl-grid">
 
+
+							<div
+								class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp pointer"
+								onclick="location.href='#/skype';">
+								<div class="mdl-card__media">
+									<img src="images/skype.png">
+								</div>
+								<div class="mdl-card__title">
+									<h4 class="mdl-card__title-text">Skype Old Messages</h4>
+								</div>
+								<div class="mdl-card__supporting-text">
+									<span
+										class="mdl-typography--font-light mdl-typography--subhead">Une petite application web permettant de consulter les anciens messages des anciennes version de Skype.</span>
+								</div>
+							</div>
+							
 							<div
 								class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp pointer"
 								onclick="location.href='#/imhd';">
@@ -140,22 +159,20 @@
 
 					<div class="mdl-layout__tab-panel" id="overview" title="Accueil"></div>
 
-
-					<!-- YPGAMES -->
 					<div class="mdl-layout__tab-panel" id="ypg" data-include="ypg"
 						titre="YPGames"></div>
 
-					<!-- WORLD RETURN -->
 					<div class="mdl-layout__tab-panel" id="wr" data-include="wr"
 						titre="World Return / SBRW"></div>
 
-					<!-- TAATU -->
 					<div class="mdl-layout__tab-panel" id="taatu" data-include="taatu"
 						titre="TAATU Studio"></div>
 					
-					<!-- TAATU -->
-					<div class="mdl-layout__tab-panel" id="imhd" data-include="mhd"
+					<div class="mdl-layout__tab-panel" id="imhd" data-include="imhd"
 						titre="IMHD API"></div>
+						
+					<div class="mdl-layout__tab-panel" id="skype" data-include="skype"
+						titre="Skype Old Messages"></div>
 
 				</main>
 			</div>

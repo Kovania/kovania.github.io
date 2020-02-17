@@ -1,0 +1,101 @@
+<div class="kova-wear-section" style="background:url(images/skype-1500x500.png) center bottom no-repeat;background-size: cover;height: 680px;">
+          <div class="kova-wear-band">
+            <div class="kova-wear-band-text">
+              <div class="mdl-typography--display-2 mdl-typography--font-thin">Skype Old Messages</div>
+              <p class="mdl-typography--headline mdl-typography--font-thin">
+                Une petite application web permettant de consulter les anciens messages des anciennes version de Skype.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+          <section class="section--center mdl-grid mdl-grid--no-spacing" style="max-width: 1044px;">
+          
+       
+         
+      <div class="mdl-cell mdl-cell--8-col mdl-cell--8-col-desktop left-col" style="padding: 10px;padding-bottom:40px;">
+      <h4>Utilisation</h4>
+      
+    <p>View messages from an older version of Skype.<br>
+<br>
+Windows 7, 8, 10 : C:\Users\UserName\AppData\Roaming\Skype\SkypeUserName\main.db<br>
+<br>
+Windows XP : C:\Documents and Settings\UserName\Application Data\Skype\SkypeUserName\main.db<br>
+<br>
+Mac OS : ~/Library/Application Support/Skype/SkypeUserName/main.db<br>
+<br>
+Linux : ~/.Skype/SkypeUserName/main.db<br>
+<br>
+Copy this file to the folder : Amfphp</p>
+      
+      
+      <h4>Photos</h4>
+      
+      <div class="popup-gallery-skype">
+      	      
+	<a href="images/skype/01.png" title=""><img src="images/skype/01.png" height="75"></a>
+	<a href="images/skype/02.png" title=""><img src="images/skype/02.png" height="75"></a>
+	<a href="images/skype/03.png" title=""><img src="images/skype/03.png" height="75"></a>
+	<a href="images/skype/04.png" title=""><img src="images/skype/04.png" height="75"></a>
+
+     </div>
+
+	<script>
+		$(document).ready(function() {
+			$('.popup-gallery-skype').magnificPopup({
+				delegate: 'a',
+				type: 'image',
+				tLoading: '',
+				mainClass: 'mfp-img-mobile',
+				gallery: {
+					enabled: true,
+					navigateByImgClick: true,
+					preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+				},
+			image: {
+				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+				titleSrc: function(item) {
+					return item.el.attr('title');
+				}
+			}
+		});
+
+	});
+	</script>
+    
+    </div>
+    
+    
+    <div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop right-col" style="padding: 10px;padding-bottom:40px;">
+    
+    <h4>Détails du projet</h4>
+      <ul class="demo-list-icon mdl-list">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+    <i class="material-icons mdl-list__item-icon">schedule</i>
+    2020
+</span>
+  </li>
+    <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+    <i class="material-icons mdl-list__item-icon">http</i>
+    <a href="https://github.com/Kovania/Skype-Old-Messages" target="_blank">github/Skype-Old-Messages</a>
+  </span>
+  </li>
+</ul>
+<h4>Langue</h4>
+
+<span class="mdl-chip">
+    <span class="mdl-chip__text">PHP 7.2</span>
+</span>
+
+<h4>Framework</h4>
+
+<span class="mdl-chip">
+	<a href="https://github.com/silexlabs/amfphp-2.0" target="_blank">
+    	<span class="mdl-chip__text">AmfPHP 2.0</span>
+    </a>
+</span>
+    </div>
+         
+          </section>
