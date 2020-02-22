@@ -26,6 +26,11 @@ a img{
   border: 0px;
 }
 
+.mdl-chip__contact {
+    width: 95px;
+    font-size: 17px;
+}
+
 a {
     color: #47ADFE;
     font-weight: 500;
@@ -35,8 +40,44 @@ a {
 	background:#474747;
 }
 
+.discord {
+	background: #7289da;
+}
+
+.github {
+	background: #4078c0;	
+}
+
+.two {
+	background: #474747;
+	display: none;
+}
+
 .mdl-tooltip {
     max-width: initial;
+}
+
+.demo-card-event.mdl-card {
+    width: 150px;
+    height: 150px;
+    min-height: initial;
+    background: #333;
+    font-size: 110px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+
+.demo-card-event > .mdl-card__actions {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.demo-card-event > .mdl-card__title {
+  justify-content: center;
+}
+
+.demo-card-event > .mdl-card__title {
+  color: #fff;
 }
 
 .mdl-list__item {
@@ -50,6 +91,19 @@ text-align: left;
 
 .mdl-data-table td {
 text-align: left;
+}
+
+.mdl-mini-footer__left-section {
+    margin: 0 auto;
+    width: 189px;
+}
+
+.mdl-layout__container {
+    background: #333;
+}
+
+.mdl-typography--display-1-color-contrast {
+    opacity: 0.70;
 }
 
 ::-moz-selection {
@@ -231,7 +285,7 @@ text-align: left;
 }
 
 .mdl-card {
-    background: #333;
+    background: #474747;
 }
 
 .kova-be-together-section {
@@ -271,6 +325,7 @@ text-align: left;
   }
 
 .kova-screen-section {
+  background: #474747;
   position: relative;
   padding-top: 60px;
   padding-bottom: 80px;
@@ -424,6 +479,8 @@ text-align: left;
 
 .kova-customized-section {
   text-align: center;
+  background: url(/images/banner.png) center, #474747;
+  background-size: cover;
 }
 
 .kova-customized-section-text {
@@ -438,12 +495,11 @@ text-align: left;
   }
 
 .kova-customized-section-image {
-  background: url('images/devices.jpg') center top no-repeat;
-  background-size: cover;
-  height: 400px;
+  height: 200px;
 }
 
 .kova-more-section {
+	background: #333;
     padding: 50px 0;
     max-width: 1744px;
     margin-left: auto;
@@ -456,7 +512,6 @@ text-align: left;
   }
 
 .kova-card-container {
-	align-items: center;
     justify-content: center;
 	}
 
@@ -528,6 +583,13 @@ text-align: left;
 
 .kova-link-menu:hover {
   cursor: pointer;
+}
+
+
+@media (min-width: 840px) {
+.mdl-cell--3-col, .mdl-cell--3-col-desktop.mdl-cell--3-col-desktop {
+    width: calc(20% - 16px);
+}
 }
 
 

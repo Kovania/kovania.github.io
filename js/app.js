@@ -20,14 +20,15 @@
     
     function hideproject() {
     	
-    	$( "#kova-project" ).slideUp("slow");
-
+    	$( ".one" ).slideUp("slow");
+    	$( ".two" ).slideDown();
     }
     
     function showproject() {
     	
-    	document.title = "Accueil - KovaSK";
-    	$( "#kova-project" ).slideDown();
+    	document.title = "Accueil - Kova";
+    	$( ".one" ).slideDown();
+    	$( ".two" ).slideUp("slow");
     	document.getElementById( 'tab1' ).click();
 
     }
@@ -42,7 +43,7 @@
           include.load(file);
         }
         
-        document.title = include.attr("titre") + " - KovaSK";
+        document.title = include.attr("titre") + " - Kova";
         
         hideproject();
         document.getElementById( 'tab-' + data ).click();
