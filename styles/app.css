@@ -418,7 +418,7 @@ a {
 @media (min-width: 840px) {
 	.mdl-cell--3-col,
 	.mdl-cell--3-col-desktop.mdl-cell--3-col-desktop {
-		width: calc(20% - 16px);
+		width: calc(24% - 16px);
 	}
 }
 /**** Mobile layout ****/
@@ -658,7 +658,8 @@ button.mfp-close {
 }
 .popup-gallery-taatu img,
 .popup-gallery-ypg img,
-.popup-gallery-wr img {
+.popup-gallery-wr img,
+.popup-gallery-itm img {
 	margin-bottom: 4px;
 }
 /* Scrollbar */
