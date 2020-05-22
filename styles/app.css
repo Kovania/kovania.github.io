@@ -662,6 +662,12 @@ button.mfp-close {
 .popup-gallery-itm img {
 	margin-bottom: 4px;
 }
+
+.github {
+	padding: 3px;
+    margin-right: 5px;
+}
+
 /* Scrollbar */
 
 ::-webkit-scrollbar {
