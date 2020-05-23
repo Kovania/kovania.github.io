@@ -669,6 +669,10 @@ button.mfp-close {
     margin-right: 5px;
 }
 
+.configsize {
+	font-size: 12px!important;
+}
+
 /* Scrollbar */
 
 ::-webkit-scrollbar {
