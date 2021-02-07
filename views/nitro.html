@@ -1,0 +1,78 @@
+<div class="kova-wear-section" style="height: 184px;">
+	<div class="kova-wear-band">
+		<div class="kova-wear-band-text">
+			<div class="mdl-typography--display-2 mdl-typography--font-thin">Discord Nitro Search</div>
+			<p class="mdl-typography--headline mdl-typography--font-thin">Un site qui recherche des clés Discord Nitro.</p>
+		</div>
+	</div>
+</div>
+<section class="section--center mdl-grid mdl-grid--no-spacing" style="max-width: 1044px;">
+	<div class="mdl-cell mdl-cell--8-col mdl-cell--8-col-desktop left-col" style="padding: 10px;padding-bottom:40px;">
+		<h4>Photos</h4>
+		<div class="popup-gallery-nitro">
+			<a href="images/nitro/01.png" title="">
+				<img src="images/nitro/01.png" width="100%" style="margin-bottom:10px;">
+			</a>
+			<a href="images/nitro/02.png" title="">
+				<img src="images/nitro/02.png" width="100%" style="margin-bottom:10px;">
+			</a>
+			<a href="images/nitro/03.png" title="">
+				<img src="images/nitro/03.png" width="100%">
+			</a>
+		</div>
+		<script>
+			$(document).ready(function() {
+				$('.popup-gallery-nitro').magnificPopup({
+					delegate: 'a',
+					type: 'image',
+					tLoading: '',
+					mainClass: 'mfp-img-mobile',
+					gallery: {
+						enabled: true,
+						navigateByImgClick: true,
+						preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+					},
+				image: {
+					tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+					titleSrc: function(item) {
+						return item.el.attr('title');
+					}
+				}
+			});
+	
+		});
+		</script>
+	</div>
+	<div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop right-col" style="padding: 10px;padding-bottom:40px;">
+		<h4>Détails du projet</h4>
+		<ul class="demo-list-icon mdl-list">
+			<li class="mdl-list__item"> <span class="mdl-list__item-primary-content">
+    <i class="material-icons mdl-list__item-icon">schedule</i>
+    2020
+</span>
+			</li>
+		</ul>
+		<h4>Langue</h4>
+		<span class="mdl-chip">
+    <span class="mdl-chip__text">HTML</span>
+		</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">CSS</span>
+		</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">JAVASCRIPT</span>
+		</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">JQUERY</span>
+		</span>
+<span class="mdl-chip">
+    <span class="mdl-chip__text">PHP 7.2</span>
+		</span>
+		<h4>Framework</h4>
+		<span class="mdl-chip">
+	<a href="https://github.com/silexlabs/amfphp-2.0" target="_blank">
+    	<span class="mdl-chip__text">AmfPHP 2.0</span>
+		</a>
+		</span>
+	</div>
+</section>
